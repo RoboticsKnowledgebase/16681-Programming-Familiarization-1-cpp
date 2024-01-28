@@ -103,7 +103,7 @@ sudo apt-get install cmake build-essential xorg-dev libgl1-mesa-dev mesa-utils.
 2. Next, clone this repository. This repository contains subdirectories src, include, shaders, etc. Make an additional directory “build” using `mkdir`. Go into that directory within a terminal and run `cmake ..`. We will go over a bit about CMake in class, but feel free to read some tutorials online. This command will set up a build environment inside the directory build. If you are using Ubuntu 18.04 or newer versions which use gcc- 7 by default, force CMake to use gcc- 5 using the command 
 
 ```
-cmake -D CMAKE_C_COMPILER=gcc- 5 - DCMAKE_CXX_COMPILER=g++-5
+cmake -D CMAKE_C_COMPILER=gcc-5 - DCMAKE_CXX_COMPILER=g++-5
 ``` 
 Then, within the build directory, run `make`. Your executable should now be built and you can run it with `./missiledefense`
 
