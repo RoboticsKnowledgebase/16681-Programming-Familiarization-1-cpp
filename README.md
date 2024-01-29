@@ -162,6 +162,8 @@ fall and how it chooses where to go.
 
 ### Submission Instructions
 
-Write a PDF with answers to the practice problem in the first section named `TeamX_AndrewID_TaskN_Part1.pdf` where N is the task number in Canvas. Submit the PDF,`Controller.h`, `Controller.cpp`, and the README to Gradescope. Do not include any large binary files and the build folder in your archive.
+A skeleton for your PDF is provided in `ANSWERS.md`. Please fill in your answers there. Once done, convert the markdown document into pdf as `TeamX_AndrewID_TaskN_Part1.pdf` where N is the task number in Canvas. 
+
+Submit the PDF,`Controller.h`, `Controller.cpp`, and the README to Gradescope. Do not include any large binary files and the build folder in your archive.
 
 
