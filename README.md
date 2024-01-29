@@ -163,7 +163,7 @@ fall and how it chooses where to go.
 ### Submission Instructions
 
 - A skeleton for your PDF is provided in `ANSWERS.md`. Please fill in your answers there. 
-- Once done, convert the markdown document into pdf. This is easy if you are on VSCode -  Install the Markdown Enhanced extension. Preview the markdown, right click -> open as HTML -> print to PDF.
+- Once done, convert the markdown document into pdf. This is easy if you are on VSCode -  Install the Markdown Enhanced extension. Preview the markdown, right click -> open in browser -> print to PDF.
 - Name the file as `TeamX_AndrewID_TaskN_Part1.pdf` where N is the task number in Canvas. 
 
 - Submit the PDF,`Controller.h`, `Controller.cpp`, and the README to Gradescope. Do not include any large binary files and the build folder in your archive. Make sure that you tag the correct questions to your PDF.
