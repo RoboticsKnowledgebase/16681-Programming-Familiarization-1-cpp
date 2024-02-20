@@ -19,7 +19,7 @@ class Game
 	void newPlayer(Player*);
 	Enemy& newEnemy(int x, int y);
 	void tick();
-	void setGravity(float g) { gravity = g; }
+	// void setGravity(float g) { gravity = g; }
 	float getGravity() const { return gravity; }
 	int getWidth() const { return w; }
 	int getHeight() const { return h; }
