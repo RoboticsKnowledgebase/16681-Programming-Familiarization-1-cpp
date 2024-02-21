@@ -100,11 +100,7 @@ sudo apt-get install cmake build-essential xorg-dev libgl1-mesa-dev mesa-utils.
 
 1. In order to build the program, you will need a C++11-compliant compiler; if you are using Ubuntu 16.04, you should have at least gcc-5.4, but you can check the version using gcc -v. 
 
-2. Next, clone this repository. This repository contains subdirectories src, include, shaders, etc. Make an additional directory “build” using `mkdir`. Go into that directory within a terminal and run `cmake ..`. We will go over a bit about CMake in class, but feel free to read some tutorials online. This command will set up a build environment inside the directory build. If you are using Ubuntu 18.04 or newer versions which use gcc- 7 by default, force CMake to use gcc- 5 using the command 
-
-```
-cmake -D CMAKE_C_COMPILER=gcc-5 - DCMAKE_CXX_COMPILER=g++-5
-``` 
+2. Next, clone this repository. This repository contains subdirectories src, include, shaders, etc. Make an additional directory “build” using `mkdir`. Go into that directory within a terminal and run `cmake ..`. We will go over a bit about CMake in class, but feel free to read some tutorials online. This command will set up a build environment inside the directory build. 
 Then, within the build directory, run `make`. Your executable should now be built and you can run it with `./missiledefense`
 
 
@@ -166,6 +162,6 @@ fall and how it chooses where to go.
 - Once done, convert the markdown document into pdf. This is easy if you are on VSCode -  Install the Markdown Enhanced extension. Preview the markdown, right click -> open in browser -> print to PDF.
 - Name the file as `TeamX_AndrewID_TaskN_Part1.pdf` where N is the task number in Canvas. 
 
-- Submit the PDF,`Controller.h`, `Controller.cpp`, and the README to Gradescope. Do not include any large binary files and the build folder in your archive. Make sure that you tag the correct questions to your PDF.
+- Submit the PDF,`Controller.h`, `Controller.cpp`, and the README to Gradescope. Do not include any large binary files and the build folder in your archive.
 
 
